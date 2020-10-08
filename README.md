@@ -1,9 +1,6 @@
-# MehrdadEP Personal Pages
-
-## Pages
-
-All pages created and published by me ...
+# Mehrdad Esmaeilpour Personal Info
 
 ## Follow me
-[Twitter](https://twitter.com/MehrdadEP)
+[Twitter](https://twitter.com/mehrdadep)
 [LinkedIn](https://www.linkedin.com/in/mehrdadep/)
+[Medium](https://medium.com/@mehrdadep)
