@@ -31,13 +31,15 @@ $(window).on('load', function() {
 	});
 
 
-	$('.review-slider').owlCarousel({
-		loop: true,
-		nav: false,
-		dots: true,
-		items: 1,
-		autoplay: true
-	});
+	if ($.fn.owlCarousel) {
+		$('.review-slider').owlCarousel({
+			loop: true,
+			nav: false,
+			dots: true,
+			items: 1,
+			autoplay: true
+		});
+	}
 
 
 
@@ -71,16 +73,18 @@ $(window).on('load', function() {
 	/*------------------
 		Popup
 	--------------------*/
-	$('.portfolio-item .port-pic').magnificPopup({
-		type: 'image',
-		mainClass: 'img-popup-warp',
-		removalDelay: 500,
-	});
+	if ($.fn.magnificPopup) {
+		$('.portfolio-item .port-pic').magnificPopup({
+			type: 'image',
+			mainClass: 'img-popup-warp',
+			removalDelay: 500,
+		});
+	}
 
 
 
 
-if($().circleProgress){
+if ($.fn.circleProgress) {
 
 	//Set progress circle 1
 	$("#progress1").circleProgress({
