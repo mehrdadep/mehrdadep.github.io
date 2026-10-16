@@ -929,7 +929,26 @@ ol {
 }
 
 .home-three-style .intro-copy {
+	margin-bottom: 24px;
+}
+
+.writing-link {
 	margin-bottom: 50px;
+}
+
+.writing-link a {
+	color: #40424a;
+	font-size: 20px;
+	font-weight: 600;
+	border-bottom: 2px solid #40424a;
+}
+
+.writing-link a:hover {
+	color: #40424a;
+}
+
+.writing-link .fa {
+	margin-right: 8px;
 }
 
 .home-three-style .resume-list > li {
